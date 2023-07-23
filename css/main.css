@@ -1,0 +1,97 @@
+* { /* selector universal*/
+    padding: 0px; 
+    margin: 0px; 
+    
+}
+
+html {     /* selector html*/
+    background: #c0c0c0;
+}
+
+body {
+    height: 750px;
+    width: 750px;
+    background: orange;
+    margin: auto;
+    margin-top: 15px;
+}
+
+header {
+    height: 250px;
+    width: 750px;
+    background: red;
+
+}
+
+#banner {
+    height: 250px;
+    width: 500px;
+    background-color: black;
+    float: right;
+}
+
+#logo {
+    height: 125px;
+    width: 250px;
+    background-color: yellow;
+    float: left;
+}
+
+#buscador {
+    height: 125px;
+    width: 250px;
+    background-color: red;
+    float: left;
+}
+
+nav {
+    height: 50px;
+    background: blue;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li {
+    float: left;
+}
+
+
+main {
+    height: 400px;
+    width: 750px
+    background: pink;
+}
+
+#lado_izquierdo {
+    height: 400px;
+    width: 150px;
+    background-color: green;
+    float: left;
+}
+
+#lado_derecho {
+    height: 400px;
+    width: 100px;
+    background-color: green;
+    float: right;
+}
+
+article {
+    height: 400px;
+    width: 500px;
+    background-color: brown;
+    float: left;
+}
+
+footer {
+    height: 50px;
+    background: salmon;
+}
